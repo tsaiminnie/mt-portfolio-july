@@ -1,0 +1,74 @@
+footer {
+    background-color: map-get($colors, purple);
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+        background-color: #d3e6d3;
+    }
+
+    .footer-info {
+    height: 8rem;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .connect {
+        flex-basis: 100%;
+
+            h4 {
+                color: map-get($colors, bright-white);
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+
+
+    .email {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .email-icon {
+            fill: white;
+        }
+
+        p {
+            color: map-get($colors, bright-white);
+            margin-left: 0.5rem;
+            display: none;
+        }
+    }
+
+
+    .social {
+        a {
+            display: inline-block;
+        }
+
+        .github-icon, .linkedin-icon {
+            fill: white;
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-tablet) {
+        .connect h4, .email p {
+            color: map-get($colors, dark-grey);
+        }
+
+        #email-icon, #github-icon, #linkedin-icon {
+            fill: map-get($colors, dark-grey);
+        }
+    }
+
+    .email, .social {
+        margin: .5rem;
+    }
+
+
+}
+}

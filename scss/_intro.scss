@@ -1,0 +1,42 @@
+.intro {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 9rem;
+    max-width: 1440px;
+    
+    .intro-text{
+        width: 30%;
+        margin-right: 4rem;
+        line-height: 1.4;
+        
+
+        .name{
+            margin-top: 2rem;
+            font-size: 3rem;
+            line-height: 1;
+        }
+    }
+
+    .intro-pic img{
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        filter: unset;
+
+
+    }
+
+    .scroll {
+        position: absolute;
+        bottom: -6rem;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: none;
+
+        @media screen and (min-width: $breakpoint-tablet){
+            display: block;
+        }
+    }
+}

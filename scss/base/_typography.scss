@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4 {
+    @include font-bold-karla;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+a,
+li,
+p {
+    @include font-regular-karla;
+    line-height: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+    color: map-get($colors, purple);
+}

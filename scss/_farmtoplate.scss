@@ -1,0 +1,140 @@
+.project-content {
+
+    .project {
+        .hero-farm {
+            @media screen and (min-width: 480px){
+            background-image: url("../images/ftp-desktop-hero.png");
+            }
+        }
+    }
+
+    .project .farm-links a, .more-farm-link a {
+            border-color: #FFBF33;
+            color: #FFBF33;
+
+            &:hover {
+                background-color: #FFBF33;
+                color: white;
+                border-color: white;
+        
+    }
+
+   
+}
+
+    .project-farm-features {
+        background-color: #FFBF33;
+
+        .farm-feature-info {
+            display: block;
+
+            h3 {
+            @media screen and (min-width: 640px){
+                margin: 0 auto;
+            } 
+            }
+            .farm-feature {
+                display: block;
+            } 
+            article {
+                margin: 2rem auto;
+            }
+
+            .farm-feature-text p{
+                max-width: 40rem;
+            }
+
+            .sub-acf-container {
+                text-align: center;
+            }
+
+            .acf-steps{
+
+                img {
+                width: 100%;
+                max-width: 700px;
+                height: auto;
+                }
+
+                p {
+                    margin: 0 auto;
+                    max-width: 700px;
+                }
+
+                }
+
+        }
+
+
+
+            .farm-feature-img {
+                text-align: center;
+
+                
+                img {
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                object-position: center;
+                margin: 1rem;
+                }
+            }
+
+            .feature-code {
+               margin: 2rem auto; 
+            }
+
+    }
+
+    @media screen and (min-width: 640px) {
+        .farm-feature-info{
+            display: flex;
+            flex-wrap: wrap;
+
+            h3 {
+                margin: unset;
+            }
+
+            &:last-child {
+                display: block;
+            }
+
+            .farm-feature-img {
+                margin: 3rem;
+            }
+        }
+
+}
+
+.ftp-mockups {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    h4 {
+        flex-basis: 100%;
+    }
+    
+    img {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+        display: block;
+        margin: 2rem auto;
+    }
+
+    img:nth-child(3) {
+        width: 120px;
+    }
+}
+}
+
+.project-farm-features .footer-logo-feature {
+    display: block;
+}
+
+.codepen-embed-body {
+    max-width: 700px;
+    margin: 0 auto;
+}

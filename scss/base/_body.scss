@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+
+    .page-container {
+
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 10rem;
+        overflow: hidden;
+    }
+
+    .content-wrap {
+        margin: 0 10%;
+        max-width: 1440px;
+
+        @media screen and (min-width: 1440px){
+        margin: 0 auto;
+        }
+
+    }
+
+    button {
+        @include button-home;
+    }
+
+    // main {
+    //     max-width: 1440px;
+    //     margin: 0 auto;
+    // }
+    
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.2));
+    }
+
+}

@@ -1,0 +1,146 @@
+.project-content {
+    @media screen and (min-width: 480px){
+        .hero-image.portfolio {
+            background-image: url("../images/portfolio-hero-image.png");
+        }
+    }
+
+
+
+    .project-features.portfolio-features {
+        background-color: #474C94;
+        color: white;
+        padding: 6rem 0;
+
+
+        .brainstorm-container {
+            margin: 0 auto;
+            max-width: 1440px;
+            padding: 0 4%;
+        }
+
+        .p-feature {
+
+            @media screen and (min-width: 640px){
+            display: block;
+            }
+        }
+
+        .p-feature-img img{
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            object-fit: contain;
+            margin: 5rem auto;
+
+        }
+
+        @media screen and (min-width: 1000px){
+            .p-feature {
+                display: flex;
+                justify-content: space-between;
+
+                .p-feature-img img {
+                    margin: unset;
+                }
+            }
+
+           }
+
+
+        h3 {
+                margin: unset;    
+        }
+
+        .p-feature-text {
+            max-width: 40rem;
+            margin: unset;
+            h4 {
+                color: white;
+            }
+        }
+    }
+
+    .cta-style-guide {
+        text-align: center;
+
+        @media screen and (min-width: 1000px){
+        text-align: left;
+        }
+    }
+
+    .cta-portfolio a, .cta-style-guide a {
+        padding: 0.5rem 1rem;
+        border-radius: 65px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: ease-in-out all .6s;
+
+
+        
+
+        & {
+            border: 1px solid #2F3676;
+            color: #2F3676;
+        }
+
+        &:hover {
+            background-color: #2F3676;
+            color: white;
+            border-color: white;
+         }
+
+        }
+
+        @media screen and (min-width: 1000px){
+            .cta-portfolio a {
+                margin-left: 4%;
+            }
+        }
+
+
+        .cta-style-guide a {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+
+            &:hover {
+                background-color: #ffffff;
+                color: map-get($colors, purple);
+            }
+        }
+    }
+
+.development {
+    .p-wireframes, .p-mockups {
+        display: block;
+
+        @media screen and (min-width: 1000px){
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .p-wireframes img, .p-mockups img{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+
+    }
+
+    .p-mockups {
+        margin: 5rem auto;
+    }
+
+    .p-mockups img {
+        margin: 2rem auto;
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px){
+.development, .project-takeaways {
+    padding: 0 4%;
+}
+}

@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+        height: auto;
+        width: 100px;
+        position: relative;
+        z-index: 100;
+
+        a {
+            display: block;
+        }
+        
+        }
+}

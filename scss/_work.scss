@@ -1,0 +1,125 @@
+.work-container {
+    margin-top: 14rem;
+    margin-bottom: 8rem;
+
+    .work-title {
+        text-transform: lowercase;
+        font-size: 1.7rem;
+    }
+
+    .work {
+        position: relative;
+        max-width: 303px;
+        height: 403px;
+        margin: 6rem auto;
+        background-color: #7f53ac;
+        background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+
+        @media screen and (min-width: $breakpoint-tablet){
+            background-color: #deebdd;
+            background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+        }
+
+        // .work-image-wrapper {
+        //     display: block;
+        //     width: 100%;
+        //     position: relative;
+        //     z-index: 1;
+        //     overflow: hidden;
+        //     border-radius: 4px;
+
+        //     &:before {
+        //         content: '';
+        //         display: block;
+        //     }
+        // }
+
+        /*GrayScale*/
+        .img-container#grayscale img{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            -webkit-transition: .2s ease-in-out;
+            transition: .2s ease-in-out;
+        }
+        .img-container#grayscale:hover img {
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+        }
+  
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 303px;
+            text-align: center;
+
+            img {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+            }
+
+            .container-text {
+                color: #FFF;
+                position: relative;
+
+                h3{
+                font-size: 1.6rem;
+                }
+
+                h4{
+                    font-size: 1.1rem;
+                }
+                    .view {
+                        position: relative;
+                        top: 8rem;
+                        
+                        p {
+                        font-size: .8rem;
+                        text-transform: uppercase;
+                        }
+                    }
+                
+                
+            }
+            
+        }
+
+    }
+
+    .ftp .img-container .container-text .view {
+        top: 7.2rem;
+    }
+
+
+
+    @media screen and (min-width: 768px){
+        & {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+
+}
+
+
+
+
+//purple gradient
+
+// background-color: #a4508b;
+// background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+
+// light purp gradient
+// background-color: #9e8fb2;
+// background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+
+// light green gradient - Lego Brick
+// background-color: #deebdd;
+// background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
