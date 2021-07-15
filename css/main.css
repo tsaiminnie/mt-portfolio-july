@@ -471,6 +471,7 @@ header .logo a {
     bottom: 4rem;
     top: unset;
     background: none;
+    overflow: visible;
   }
   .overlay nav {
     -webkit-transform: none;
