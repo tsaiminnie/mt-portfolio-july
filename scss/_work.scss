@@ -14,6 +14,11 @@
         margin: 6rem auto;
         background-color: #7f53ac;
         background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+        transition: all .5s ease-in-out;
+
+        &:hover, &:focus {
+            transform: scale(1.05);
+        }
 
         @media screen and (min-width: $breakpoint-tablet){
             background-color: #deebdd;
@@ -35,16 +40,16 @@
         // }
 
         /*GrayScale*/
-        .img-container#grayscale img{
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-            -webkit-transition: .2s ease-in-out;
-            transition: .2s ease-in-out;
-        }
-        .img-container#grayscale:hover img {
-            -webkit-filter: grayscale(0);
-            filter: grayscale(0);
-        }
+        // .img-container#grayscale img{
+        //     -webkit-filter: grayscale(100%);
+        //     filter: grayscale(100%);
+        //     -webkit-transition: .2s ease-in-out;
+        //     transition: .2s ease-in-out;
+        // }
+        // .img-container#grayscale:hover img {
+        //     -webkit-filter: grayscale(0);
+        //     filter: grayscale(0);
+        // }
   
 
         .img-container {
@@ -54,12 +59,25 @@
             height: 100%;
             width: 303px;
             text-align: center;
+            transition: all .5s ease-in-out;
+            
+
+            
+            &:hover img{
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+        }
+
 
             img {
                 position: absolute;
                 margin: 0 auto;
                 left: 0;
                 right: 0;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
             }
 
             .container-text {
