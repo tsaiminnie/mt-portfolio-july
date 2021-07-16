@@ -843,7 +843,7 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
   margin-top: .5rem;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1440px) {
   .project-features .feature {
     display: -webkit-box;
     display: -ms-flexbox;
