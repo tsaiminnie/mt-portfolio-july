@@ -9,6 +9,10 @@ footer {
         background-color: #d3e6d3;
     }
 
+    @media screen and (min-width: 1024px) {
+        background-color: #256eff;
+    }
+
     .footer-info {
     height: 8rem;
     margin: 2rem 1rem;
@@ -64,6 +68,17 @@ footer {
             fill: map-get($colors, dark-grey);
         }
     }
+
+    @media screen and (min-width: 1024px) {
+        .connect h4, .email p {
+            color: map-get($colors, bright-white);
+        }
+
+        #email-icon, #github-icon, #linkedin-icon {
+            fill: map-get($colors, bright-white);
+        }
+    }
+
 
     .email, .social {
         margin: .5rem;

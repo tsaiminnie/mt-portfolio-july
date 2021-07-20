@@ -42,14 +42,14 @@
 
                 <picture class="intro-pic">
                     <source media="(max-width: 767px)" srcset="images/home-image-min.png">
-                    <source media="(min-width: 768px)" srcset="images/tablet-minnie-finished.png">
-                    <source media="(min-width: 1000px)" srcset="elva-800w.jpg">
+                    <source media="(max-width: 1023px)" srcset="images/tablet-minnie-finished.png">
+                    <source media="(min-width: 1024px)" srcset="images/desktop-home-image.png">
                     <img src="images/home-image-min.png" alt="Girl in iphone, tablet, or desktop">
                 </picture>
             
-                <div class="scroll">
-                    <img src="images/iconmonstr-mouse-4.svg" alt="Scroll icon">
-                </div>
+                <!-- <div class="mouse">
+                    <p>Scroll</p>
+                </div> -->
 
             </section>
 

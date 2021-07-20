@@ -232,6 +232,13 @@
               background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
             }
           }
+
+          @media screen and (min-width: 1024px) {
+            &{
+              background-color: #fce055;
+              background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+            }
+          }
         }
       }
     }

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -201,13 +202,11 @@ body img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: relative;
-  margin-top: 9rem;
+  margin-top: 5.5rem;
   max-width: 1440px;
 }
 
 .intro .intro-text {
-  width: 30%;
-  margin-right: 4rem;
   line-height: 1.4;
 }
 
@@ -223,6 +222,7 @@ body img {
   height: auto;
   -webkit-filter: unset;
           filter: unset;
+  margin-left: 4rem;
 }
 
 .intro .scroll {
@@ -510,6 +510,13 @@ header .logo a {
   }
 }
 
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+  .overlay nav ul li a::after {
+    background-color: #fce055;
+    background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .overlay .nav-bottom {
     visibility: hidden;
@@ -611,6 +618,13 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
   .work-container .work {
     background-color: #deebdd;
     background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .work-container .work {
+    background-color: #fce055;
+    background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
   }
 }
 
@@ -1301,6 +1315,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  footer {
+    background-color: #256eff;
+  }
+}
+
 footer .footer-info {
   height: 8rem;
   margin: 2rem 1rem;
@@ -1363,6 +1383,15 @@ footer .footer-info .social .github-icon, footer .footer-info .social .linkedin-
   }
   footer .footer-info #email-icon, footer .footer-info #github-icon, footer .footer-info #linkedin-icon {
     fill: #555555;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer .footer-info .connect h4, footer .footer-info .email p {
+    color: #FFF;
+  }
+  footer .footer-info #email-icon, footer .footer-info #github-icon, footer .footer-info #linkedin-icon {
+    fill: #FFF;
   }
 }
 
