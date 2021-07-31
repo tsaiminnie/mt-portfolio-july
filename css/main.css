@@ -1297,6 +1297,7 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
     font-size: 1.7rem;
   }
   .about .about-subtitle h2 {
+    max-width: 500px;
     font-size: 1.3rem;
   }
   .about .about-image {
