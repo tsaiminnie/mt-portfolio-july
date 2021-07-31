@@ -23,7 +23,7 @@
     -->
     <script>0</script>
 
-    <div class="page-container">
+    <div class="page-container about-pg">
 
         <div class="content-wrap">
 

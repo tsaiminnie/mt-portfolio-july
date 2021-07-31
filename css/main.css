@@ -1240,8 +1240,19 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
   }
 }
 
+.page-container.about-pg {
+  padding-bottom: 16rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .page-container.about-pg {
+    padding-bottom: 0;
+  }
+}
+
 .about {
-  margin-top: 4rem;
+  margin: 4rem auto;
+  max-width: 500px;
 }
 
 .about .about-subtitle h1 {
@@ -1250,15 +1261,15 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
 }
 
 .about .about-subtitle h2 {
-  max-width: 500px;
   font-size: 1.2rem;
   color: #555555;
 }
 
 .about img {
   display: block;
-  width: 294px;
-  margin: 2rem auto;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   -webkit-filter: unset;
           filter: unset;
 }
@@ -1267,8 +1278,9 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
   margin: 1rem auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .about {
+    max-width: 1440px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
