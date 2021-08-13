@@ -42,9 +42,9 @@
                 <img class="about-image" src="images/minnieAboutImage.png" alt="Minnie">
 
                 <div class="about-content">
-                    <p> My approach to design is to keep things simple and develop minimalistic yet appealing designs while allowing information to be easily accessible and comfortable to the human eye.</p>
+                    <p> My approach to design is to keep things simple and develop minimalistic yet appealing designs while allowing information to be easily accessible and comfortable to look at.</p>
 
-                    <p>Before the COVID-19 pandemic, I was a flight attendant travelling all parts of the world. Travelling will always be one of my life pleasures but another one is creating art. I am passionate about the integration of design in the healthcare space and am excited to use my skills as a web developer to create great projects. </p>
+                    <p>Before the COVID-19 pandemic, I was a flight attendant travelling all parts of the world. Travelling will always be one of my life pleasures but another one is creating art and designing. I am passionate about developing websites and applications that improve people's lives in one way or another.</p>
 
                     <p>If you have learned something about me and would like to reach out, I would love to connect! </p>
                 </div>
