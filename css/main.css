@@ -151,6 +151,10 @@ strong {
   color: #2F3676;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   max-width: 100%;
