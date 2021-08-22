@@ -43,7 +43,7 @@
                     <div class="hero-image-overlay"></div>
                     <div class="hero-text">
                         <div class="project-text">
-                            <h2>WordPress & WooCommerce Site Project</h2>
+                            <h2>WordPress & WooCommerce Project</h2>
                             <h1>Farm to Plate</h1>
                             <p>Farm to Plate is a meal delivery business site created using WordPress and WooCommerce. <strong>Custom ACF fields</strong> were created to output various information and media. 
                         </div>
