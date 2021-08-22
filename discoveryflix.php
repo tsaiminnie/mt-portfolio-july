@@ -40,7 +40,7 @@
                     <div class="hero-image-overlay"></div>
                     <div class="hero-text">
                         <div class="project-text">
-                            <h2>React Movie Database</h2>
+                            <h2>React Movie Database Project</h2>
                             <h1>Discovery Flix</h1>
                             <p>DiscoveryFlix is a web application developed with React that draws data from a third party API and allows for a personalized user experience complete with a <strong>sorting</strong> and <strong>favourites</strong> feature.
                         </div>
