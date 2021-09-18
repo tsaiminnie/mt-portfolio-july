@@ -10,7 +10,7 @@ h4 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 a,
@@ -20,7 +20,10 @@ p {
     line-height: 1.5em;
 }
 
+p {
+    font-size: 18px;
+}
+
 strong {
     font-weight: bold;
-    color: map-get($colors, purple);
 }

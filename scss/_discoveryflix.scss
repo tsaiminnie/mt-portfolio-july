@@ -9,16 +9,17 @@ header {
 
 
     h4 {
-        text-transform: uppercase;
+        font-size: 20px;
+        // text-transform: uppercase;
         color: map-get($colors, dark-grey);
     }
 
 
 
 .project {
-    max-width: 1440px;
-    margin: 4rem auto;
-    padding: 0 4%;
+    max-width: 2000px;
+    margin: 8rem auto;
+    padding: 0 8%;
 
     .hero-image {
         background: white;
@@ -81,12 +82,12 @@ header {
         margin: 2rem auto;
 
         .details-label {
-            font-size: 14px;
+            font-size: 16px;
             color: map-get($colors, dark-grey);
         }
 
         .details-info {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 
@@ -122,26 +123,35 @@ header {
 .project-features {
     background-color: #C3B791;
     width: 100%;
-    margin-top: 4rem;
-    padding: 4rem 4%;
+    // margin-top: 4rem;
+    padding: 6rem 0;
+
+    .divider-photo {
+        position: relative;
+        bottom: 6rem;
+
+        img {
+            width: 100%;
+            max-height: 800px;
+            object-fit: cover;
+            background-color: #5f6f5e;
+            background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+            }
+        }
 
     .feature-info {
-        max-width: 1440px;
+        max-width: 2000px;
         margin: 0 auto;
-        padding: 0 4%;
+        padding: 0 8%;
     }
 
-    h3 {
-        margin: 0 4%;
-        font-size: 18px;
-    }
 
     .feature {
-        margin: 2rem auto;
+        margin: 4rem auto;
     }
 
     .feature-video {
-        margin: 0 4%;
+        text-align: center;
 
         video {
             max-width: 100%;
@@ -152,14 +162,16 @@ header {
 
 
     .feature-text {
-        margin: 2rem 4%;
+        margin: 1rem auto;
+        max-width: 700px;
+        text-align:left;
 
         p {
-            margin-top: .5rem;
+            margin-top: 1rem;
         }
     }
 
-    @media screen and (min-width: 1440px){
+    @media screen and (min-width: 1365px){
         .feature {
             display: flex;
 
@@ -168,14 +180,14 @@ header {
             };
 
             .feature-text {
-                margin: unset;
+                margin: 0 2rem;
             }
         }
     }
 
     @media screen and (min-width: 1180px){
         .feature-info {
-            display: grid;
+            // display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
 
@@ -188,12 +200,19 @@ header {
 
 }
 
-.project-takeaways, .development {
-    margin: 4rem 4%;
+.planning, .project-takeaways {
+    margin: 4rem auto;
+    padding: 0 8%;
 
-    p {
-        margin-top: .5rem;
+    .planning-intro {
+        margin-bottom: 4rem;
     }
+
+    .takeaway {
+    p:nth-child(3) {
+        margin-top: 2rem;
+    }
+}
 }
 
 .takeaway {
@@ -201,14 +220,28 @@ header {
 }
 
 
-.wireframes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.wireframes, .mockups {
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
     margin: 2rem auto;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
 
     h4 {
-        flex-basis: 100%;
+        // flex-basis: 100%;
+        grid-column: 1/4;
+    }
+
+    @media screen and (min-width: 800px) {
+        &{
+            grid-template-columns: repeat(5, 1fr);
+
+            h4 {
+                grid-column: 1/6;
+            }
+        }
     }
 
 }
@@ -217,17 +250,17 @@ header {
     margin: 2rem auto;
     width: 100%;
     height: auto;
-    max-width: 500px;
-    display: block;
-    text-align: center;
+    // max-width: 500px;
+    // display: block;
+    // text-align: center;
 }
 
 
 .more-project-link {
     display: block;
     text-align: right;
-    padding-right: 4%;
-    max-width: 1440px;
+    padding-right: 8%;
+    max-width: 2000px;
     margin: 0 auto;
     a {
         padding: 0.5rem 1rem;
@@ -248,14 +281,19 @@ header {
     }
 }
 
-.project-content.project, .feature-info, .development, .project-takeaways, .cta-project {
-    max-width: 1440px;
+.project-content.project, .feature-info, .planning, .project-takeaways, .cta-project {
+    max-width: 2000px;
 
-    @media screen and (min-width: 1440px){
+    @media screen and (min-width: 2000px){
         margin: unset;
         margin: 4rem auto;
         
     }
 }
 
+
+.feature:nth-child(3) {
+    flex-direction: row-reverse;
+    margin: 8rem auto;
+}
 
