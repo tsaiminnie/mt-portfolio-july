@@ -84,16 +84,27 @@
             <section class="planning">
                 <h3>Planning</h3>
 
+                <div class="sitemap">
+                    <h4>Site Map</h4>
+                <img src="images/portfolio-sitemap.png" alt="Portfolio sitemap" loading="lazy">
+                </div>
+
                 <div class="wireframes p-wireframes">
                     <h4>Wireframes</h4>
-                    <img src="images/portfolio-mob-wireframes.png" alt="Portfolio mobile wireframes"loading="lazy">
-                    <img src="images/portfolio-desk-wireframes.png" alt="Portfolio desktop wireframes"loading="lazy">
+                    <img src="images/portfolio-wireframe1.png" alt="Portfolio mobile wireframe" loading="lazy">
+                    <img src="images/portfolio-wireframe2.png" alt="Portfolio mobile wireframe" loading="lazy">
+                    <img src="images/portfolio-wireframe3.png" alt="Portfolio mobile wireframe" loading="lazy">
+                    <img src="images/portfolio-wf4.png" alt="Portfolio mobile wireframe" loading="lazy">
+                    <img src="images/portfolio-wf5.png" alt="Portfolio mobile wireframe" loading="lazy">
                 </div>
 
                 <div class="mockups p-mockups">
-                    <h4>Mockups</h4>
-                    <img src="images/portfolio-mobile-mockup2.png" alt="Portfolio mobile mockups" loading="lazy">
-                    <img src="images/portfolio-desktop-mockup2.png" alt="Portfolio desktop mockup"loading="lazy">
+                    <h4>High Fidelity Mockups</h4>
+                    <img src="images/port-hf1.png" alt="Portfolio mobile mockup" loading="lazy">
+                    <img src="images/port-hf2.png" alt="Portfolio mobile mockup"loading="lazy">
+                    <img src="images/port-hf3.png" alt="Portfolio mobile mockup"loading="lazy">
+                    <img src="images/port-hf4.png" alt="Portfolio mobile mockup"loading="lazy">
+                    <img src="images/port-hf5.png" alt="Portfolio mobile mockup"loading="lazy">
                 </div>
             </section>
 
@@ -102,7 +113,13 @@
 
                 <div class="takeaway">
                     <h4>Reflections</h4>
-                    <p>The biggest struggle I had while creating my portfolio was wanting to change my site as I found more inspiration and therefore not being able to commit to finalizing my mockups. Although my wireframes and mockups went through several iterations, I am quite pleased with the end results of my Work pages. However, I think I will continuously be changing my portfolio as I find more inspiration and ideas to include.</p>
+
+                    <p>
+                     My original idea was for the footer colour to change according to the screen size. For mobile, it is purple, for tablet, green, and for desktop, it's blue to match my homepage image. However, I found that it wasn't consistent with my individual Work pages since I made each Work page a different colour. Moving forward, I would like to change my footer colour to be consistent with the theme of the page it is on.
+                    </p>
+
+                    <p>The biggest struggle I had while creating my portfolio was wanting to change my site as I found more inspiration and therefore not being able to commit to finalizing my mockups. As well, I originally wanted a separate contact page but seeing as I do not have a content-heavy home page, I decided to put the contact info in the footer. Although my wireframes and mockups went through several iterations, I am quite pleased with the end results of my Work pages. However, I will definitely be adding to my portfolio as I find more inspiration and ideas to include!
+                    </p>
                 </div>
             </section>
 

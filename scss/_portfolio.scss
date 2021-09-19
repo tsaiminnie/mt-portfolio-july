@@ -15,8 +15,8 @@
 
         .brainstorm-container {
             margin: 0 auto;
-            max-width: 1440px;
-            padding: 0 4%;
+            max-width: 2000px;
+            padding: 0 8%;
         }
 
         .p-feature {
@@ -28,22 +28,24 @@
 
         .p-feature-img img{
             width: 100%;
-            max-width: 500px;
+            max-width: 800px;
             height: auto;
             display: block;
             margin: 0 auto;
             object-fit: contain;
             margin: 5rem auto;
 
+
         }
 
-        @media screen and (min-width: 1000px){
+        @media screen and (min-width: 1400px){
             .p-feature {
                 display: flex;
                 justify-content: space-between;
 
                 .p-feature-img img {
                     margin: unset;
+                    margin-left: 2rem;
                 }
             }
 
@@ -112,18 +114,11 @@
         }
     }
 
-.development {
-    .p-wireframes, .p-mockups {
-        display: block;
+.planning {
 
-        @media screen and (min-width: 1000px){
-            display: flex;
-            flex-wrap: wrap;
-        }
-    }
     .p-wireframes img, .p-mockups img{
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
         height: auto;
 
     }
@@ -143,4 +138,10 @@
 .development, .project-takeaways {
     padding: 0 8%;
 }
+}
+
+.sitemap img {
+    max-width: 800px;
+    display: block;
+    text-align: center;
 }
