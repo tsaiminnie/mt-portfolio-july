@@ -1009,8 +1009,18 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
   margin: 2rem auto;
 }
 
+.project-content .project-farm-features .farm-feature-info .farm-feature-text {
+  max-width: unset;
+}
+
 .project-content .project-farm-features .farm-feature-info .farm-feature-text p {
   max-width: 40rem;
+}
+
+@media screen and (min-width: 1365px) {
+  .project-content .project-farm-features .farm-feature-info .farm-feature-text {
+    margin: unset;
+  }
 }
 
 .project-content .project-farm-features .farm-feature-info .sub-acf-container {

@@ -51,9 +51,9 @@
                         <div class="project-details">
                             <ul>
                                 <li class="details-label">Role</li>
-                                <li class="details-info">WordPress developer, UX/UI developer</li>
+                                <li class="details-info">WordPress Developer, UX/UI Designer</li>
                                 <li class="details-label">Team</li>
-                                <li class="details-info">Kara Lu, Yingying Feng, Sriram Sharma, Minnie Tsai</li>
+                                <li class="details-info">Kara Lu, Yingying Feng, Sriram Sharma</li>
                                 <li class="details-label">Tools</li>
                                 <li class="details-info">WordPress, SASS, ACF, WooCommerce, GitHub, Adobe XD</li>
                             </ul>
@@ -103,7 +103,7 @@
 
                         <div class="feature-text farm-feature-text ">
                             <h4>Footer Logo</h4>
-                            <p>We wanted to display two different site logos - one on the header and another on the footer. To do this, we uploaded the header logo onto the site identity field of WordPress. Then, we created a custom field for the footer logo and outputted the code to display the logo in our footer.php file. </p>
+                            <p>We wanted to display two different site logos - one on the header and another on the footer. To do this, we uploaded the header logo onto the site identity field of WordPress. Then, we created a custom field for the footer logo and output the code to display the logo in our footer.php file. </p>
                         </div>
 
                         <div class="feature-img farm-feature-img">
@@ -118,8 +118,8 @@
                 </article>
             </section>
 
-            <section class="development">
-                <h3>Development</h3>
+            <section class="planning">
+                <h3>Planning</h3>
                 <p>Wireframes and high fidelity mockups were created using Adobe XD, then we proceeded to code the PHP in Visual Studio Code and used GitHub for version control. We also used Trello to keep each member updated on the progress of our tasks.</p>
 
                 <div class="mockups ftp-mockups">

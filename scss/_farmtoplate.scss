@@ -40,8 +40,15 @@
                 margin: 2rem auto;
             }
 
-            .farm-feature-text p{
+            .farm-feature-text {
+                max-width: unset;
+                p{
                 max-width: 40rem;
+                }
+
+                @media screen and (min-width: 1365px){
+                    margin: unset;
+                }
             }
 
             .sub-acf-container {

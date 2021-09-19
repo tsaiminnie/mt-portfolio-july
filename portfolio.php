@@ -46,7 +46,7 @@
                         <div class="project-details">
                             <ul>
                                 <li class="details-label">Role</li>
-                                <li class="details-info">Front-end developer</li>
+                                <li class="details-info">Front-End Developer</li>
                                 <li class="details-label">Tools</li>
                                 <li class="details-info">HTML, SASS, JavaScript</li>
                             </ul>
@@ -81,8 +81,8 @@
                 </div>
             </section>
 
-            <section class="development">
-                <h3>Development</h3>
+            <section class="planning">
+                <h3>Planning</h3>
 
                 <div class="wireframes p-wireframes">
                     <h4>Wireframes</h4>
