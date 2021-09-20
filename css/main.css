@@ -1261,8 +1261,9 @@ footer .wave .custom-shape-divider-bottom-1624863742 .shape-fill {
 }
 
 .about {
+  padding: 0 8%;
   margin: 4rem auto;
-  max-width: 500px;
+  max-width: 685px;
 }
 
 .about .about-subtitle h1 {
